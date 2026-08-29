@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RJ Consultancy - Nifty Bank Nifty Advisor</title>
+    
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '3671718946337191');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=3671718946337191&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    
     <style>
         * {
             margin: 0;
@@ -178,17 +197,6 @@
             box-shadow: 0 12px 30px rgba(0, 102, 204, 0.4);
         }
 
-        .btn-secondary {
-            background: linear-gradient(135deg, #d4af37 0%, #f0e68c 100%);
-            color: #1a1a1a;
-            box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
-        }
-
-        .btn-secondary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 12px 30px rgba(212, 175, 55, 0.4);
-        }
-
         .btn-icon {
             font-size: 18px;
         }
@@ -230,20 +238,6 @@
                 padding: 14px 25px;
                 font-size: 15px;
             }
-        }
-
-        .checkmark {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            background: #1a1a1a;
-            border-radius: 50%;
-            color: white;
-            font-size: 12px;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
     </style>
 </head>
@@ -316,13 +310,9 @@
 
             <!-- CTA Buttons -->
             <div class="cta-buttons">
-                <a href="https://t.me/+x-H2DmzCKuU3ZGNl" class="btn btn-primary" target="_blank">
+                <a href="https://t.me/+x-H2DmzCKuU3ZGNl" class="btn btn-primary" target="_blank" onclick="fbq('track', 'Lead');">
                     <span class="btn-icon">✓</span>
                     Join Main Channel
-                </a>
-                <a href="https://t.me/+OgGdgIxBgydiZjc1" class="btn btn-secondary" target="_blank">
-                    <span class="btn-icon">📱</span>
-                    Join via Adslink
                 </a>
             </div>
 

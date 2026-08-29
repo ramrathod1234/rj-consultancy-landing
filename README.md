@@ -1,2 +1,2 @@
 # rj-consultancy
-Professional RJ Consultancy
+Professional RJ
